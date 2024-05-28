@@ -10,7 +10,7 @@ local opts = { noremap = true, silent = true }
 
 -- Navigation in Insert Mode
 keymap.set("i", "<C-b>", "<ESC>^i", opts)
-keymap.set("i", "C-e>", "<End>", opts)
+keymap.set("i", "<C-e>", "<End>", opts)
 keymap.set("i", "<m-h>", "<Left>", opts)
 keymap.set("i", "<m-l>", "<Right>", opts)
 keymap.set("i", "<m-j>", "<Down>", opts)
